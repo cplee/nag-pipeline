@@ -5,12 +5,8 @@ environments:
 service:
   imageRepository: nginx:alpine
   pipeline:
-    muVersion: '1.1.1-develop'
     build:
       disabled: true
 
-
-
 extensions:
-#- url: https://github.com/stelligent/mu-cfn_nag/archive/master.zip
-- url: /Users/casey.lee/Dev/mu/mu-cfn_nag
+- url: https://github.com/stelligent/mu-cfn_nag/archive/master.zip
