@@ -1,0 +1,14 @@
+
+service:
+  pipeline:
+    muVersion: '1.1.1-develop'
+    acceptance:
+      disabled: true
+    production:
+      disabled: true
+
+
+
+extensions:
+#- url: https://github.com/stelligent/mu-cfn_nag/archive/master.zip
+- url: /Users/casey.lee/Dev/mu/mu-cfn_nag
